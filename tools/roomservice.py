@@ -38,14 +38,14 @@ except ImportError:
 # set this to the default remote to use in repo
 default_rem = "gd"
 # set this to the default revision to use (branch/tag name)
-default_rev = "lp5.0"
+default_rev = "gr-3.1"
 # set this to the remote that you use for projects from your team repos
-# example fetch="https://github.com/TeamGlade-Devices"
+# example fetch="https://github.com/GladeRom"
 default_team_rem = "github"
 # this shouldn't change unless google makes changes
 local_manifest_dir = ".repo/local_manifests"
 # change this to your name on github (or equivalent hosting)
-android_team = "TeamGlade-Devices"
+android_team = "Glade-Devices"
 
 
 def check_repo_exists(git_data):
